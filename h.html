@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<title></title>
+</head>
+
+<body>
+
+	<div id="app">
+		<ul>
+			<li v-for="person in persons">
+				<div v-for="(value, key) in person">{{ key }} : {{ value }}</div>
+			</li>
+		</ul>
+	</div>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+	<script src="index.js"></script>
+
+	
+
+
+
+</body>
+</html>
